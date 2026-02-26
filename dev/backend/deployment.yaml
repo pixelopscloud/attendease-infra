@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: pixelopscloud/attendease-backend:v1.0.0
+          image: pixelopscloud/attendease-backend:b8416b0d04d6e99e2271f7f41d539f2ddcf407b4
           ports:
             - containerPort: 5000
           env:

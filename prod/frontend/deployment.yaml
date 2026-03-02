@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: pixelopscloud/attendease-frontend:v1.0.0
+          image: pixelopscloud/attendease-frontend:09c4932e68e755295006b67b3d05e2c95701a7b0
           ports:
             - containerPort: 80
 ---
